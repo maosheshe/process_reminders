@@ -529,7 +529,7 @@ def main():
     top3 = district_data[2]["name"] if len(district_data) > 2 else ""
 
     statement = (
-        f"    在计量设备待装超时监控方面，全市各区局累计已领取待装计量设备总数达 {total_total:,} 台。"
+        f"在计量设备待装超时监控方面，全市各区局累计已领取待装计量设备总数达 {total_total:,} 台。"
         f"其中，领出超 3 个工作日的计量设备 {total_over3:,} 台，"
         f"领出超 10 个工作日的计量设备 {total_over10:,} 台，"
         f"领出超 15 个工作日的计量设备 {total_over15:,} 台。"
